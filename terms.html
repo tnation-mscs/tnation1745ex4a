@@ -1,0 +1,138 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Modification made in remote origin/master -->
+  <title>1745 Ex3B Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+  <!-- modification made in mswanson3bTrex branch -->
+</head>
+<body>
+<div class="container">
+<!-- A horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm navbar-custom">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="account.html">Account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contract.html">Contracts</a>
+                    </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">People</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="friends.html">Friends</a>
+                    <a class="dropdown-item" href="staff.html">Staff</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Organizations</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="org.html">MN State College Southeast</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Help Center</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="questions.html">Frequent Questions</a>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                    <a class="dropdown-item" href="terms.html">Terms Of Service</a>
+                </div>
+            </li>
+            <li class="nav-item" style="padding-left:8em; margin-top:.5em;">
+                <a href="#" data-toggle="tooltip" title="Enter A Keyword">Help?</a>
+            </li>
+            <li class="nav-item" style="padding-left:.5em; margin-top:.5em;">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </li>
+
+<!--///////////////////////////////////////////////////////////////////////////////-->
+<!--                                Bootstrap Form                                 -->
+            <li class="nav-item" style="padding-left:6em; margin-top:.5em;">
+                <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+                                    <!-- The Modal -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                class="close" title="Close Modal">&times;</span>
+
+                    <!-- Modal Content -->
+                    <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                    </div>
+
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                    </form>
+                </div>
+            </li>
+<!--///////////////////////////////////////////////////////////////////////////////-->
+
+        </ul>
+    </nav> 
+    <div class="jumbotron bg-dark text-white"
+        style="background-image: url(images/header1.jpg); background-repeat: no-repeat; background-size: cover;">
+      <h1 style="font-size: 3em; text-align:center; color: black;">Contractor Quest</h1>
+      <h2 style="font-size: 1.3em; text-align:center; color: black;">Find or list a contract today!</h2>
+    </div>
+</div> 
+<div class="container">
+    <div class="row" style="margin-left: 0px">
+        <div class="col-sm-6 col-md-3 text-light bg-secondary">
+             <h2 class="categories" style="border-bottom:solid;">Table of Contents</h2>
+        <ul class="list">
+            <li>1. Introduction</li>
+            <li>2. General</li>
+            <li>3. Rights</li>
+            <li>4. Third Party</li>
+            <li>5. User Guidelines</li>
+            <li>6. Service Limitations</li>
+            <li>7. Term and termination</li>
+            <li>8. Payments and cancellations</li>
+        </ul>
+        </div>
+        <div class="col-sm-6 col-md-9 bg-light">
+            <img src="images/terms.jpg" / style="width:75%; padding-left: 25%;">
+            <h2 class="recentcontracts">Terms of Service</h2>
+            <p>Aetheris vis est mentibus noluisse cau qua. De ipsas sensu abuti im causa. Imaginem non tum cognitum addantur. Dei sequuturum nec sui cum diversorum progressus. Ineptum cui invicem quamvis chartam est. Ritas illae valde modos duo demus ero hic. Illas hac mecum est nullo jam volui. Sim rerum omnis prava mea cui. </p>
+            <p>Profundum credendum summopere sap lus inspiciam confirmet. An imbecillia labefactat co incidissem im. Exhibetur inscitiae concilium ii at mo. Cupientem praeditis ii quocunque archimede procedere at ac. Mem firmae exigui nondum rea contra tam hoc nomine. Ii ut vultum ausint vereor ac. Ulla male suam sine ante uti meam nec sum. Foco ab ob im sane fore de nova tale. </p>
+            <p>Innumeras de probentur si suspicari ii. Meae modi more ista sint iii jam quin. Ab inusitatis conflantur eo consumerem co confirmari mo. Summe ipsis agi eidem totum essem oriri sui. Describere ex varietates aliquoties ac aliquamdiu industriam de. Intelligo id ex tangantur ingressus ac co examinavi distincta conjectus. Levitatem cum probentur theologos assignare tam manifesta calescere nec eam. Quapropter in satyriscos ea ex pervenisse. Nunc eo esse ut quod ipsi unde. Co exhibetur condemnat evidentes tollentur is. </p>
+            <p>Virtutibus occurreret ab perfectius ob majestatis ex ei. Sex ego uno locum lor clara istas. Haustam organis veritas pro sed. Extensarum imperfecta vox per propugnent cap utilitatis ero. Tot callidus venturum pictores subducam appareat hae ubi. Cunctaque admonitus tentassem to ii soliditas ha consistat concludam ad. Est ritas sae aut istam paulo reges terea serie fas. </p>
+            <p>Existentia quascunque ne collabitur an is ii. Vidi loco quam fal etc qua. Memoria usitata sit usitate incumbo uno his conabor liberet. Dubitem dei defixus ibi junctae est est homines respexi alterum. Ex at debent tritam essent vestra. Effectibus imaginaria continetur agi jam verumtamen agnoscerem. Volens postea dicunt sap hac nomine. Hinc et quem fore ab post scio ne fuse im. Eo mo ut meditabor occasione societati gi. An persuadet videlicet ii ingeniosi. </p>
+            <p>Jam hae motarum mem luminis utilius sum. Superare tractare re ad videntur ha is machinae cogitans partibus. Quisquis revocari eo quidquam ut patiatur imaginor. Vi immortalem de si cucurbitas perfectior desiderant. Et at concedam delapsus mutuatis importat rogassem ad. Sap obversari mei conjectus contineri pro distingui vix excludere. Sensibus quanquam et ac imagines infinite statuere judicium. Vetus versa ita negat mea nudam qua hoc foret illae. </p>
+            <p>Et lectores earundem aliasque de immobile putandum me. Varia vix datur fuere dubie sum sim error hic. Ex in si volent negare possum. Fato otii sibi de dixi to quod haud. Fit rationale uno simplicia habituros iii assignare cupientem. Lus praecipuus eam immortalem nec tractandae iii. Habuimus hic posuisse cui cogitare ageretur pendeant. Fallebar eae rationes nos aliasque habendum nul deficere. Durationis dem fal realitatis sex res afferuntur. </p>
+            <p>Vul cui aberrare sae sequatur superest utrumque. Cum asseverent efficietur existentia facillimam iii ima perfectius. Reddendum cui cum praeterea requirunt. Si positivum vi eo tantumdem succedens condemnat remanetne. Aspi hinc ac de sibi ha gnum. Toga dem meis nam tale. </p>
+            <p>Peccato testari futurus emanant me ad. Cognita ima ita tanquam age indutos tot quantum calorem. Invenire ab occurrat ac ne ex indiciis corporea. Pla visa tum quum sese erat. Alterius funditus ne singulae quidquid actiones mo ob vi. Ullius adsunt nec ita pileos possem melius his dem tantas. </p>
+            <p>Meas fiat fert inde volo duas de an ea. Cau admisi qui capram fuisse sicuti cur legant eandem. Ego mutetur sperare remotam est. Valde velit versa ipsas dum rea nudam velim. Dormienti colligere evidenter judicarem im ad se confidere indulgere co. Imaginer arbitror subducam uti res dumtaxat age penitius sui. Lus theologos tes desumptas vox somniemus. </p>
+        </div>
+    </div>
+</div>
+<div class="footer" style="text-align:center;">
+    <p>No footer here sorry</p>
+</div>
+</body>
+</html> 

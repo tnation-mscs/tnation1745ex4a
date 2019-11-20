@@ -1,0 +1,156 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Modification made in remote origin/master -->
+  <title>1745 Ex3B Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+  <!-- modification made in mswanson3bTrex branch -->
+</head>
+<body>
+<div class="container">
+<!-- A horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm navbar-custom">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="account.html">Account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contract.html">Contracts</a>
+                    </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">People</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="friends.html">Friends</a>
+                    <a class="dropdown-item" href="staff.html">Staff</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Organizations</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="org.html">MN State College Southeast</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Help Center</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="questions.html">Frequent Questions</a>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                    <a class="dropdown-item" href="terms.html">Terms Of Service</a>
+                </div>
+            </li>
+            <li class="nav-item" style="padding-left:8em; margin-top:.5em;">
+                <a href="#" data-toggle="tooltip" title="Enter A Keyword">Help?</a>
+            </li>
+            <li class="nav-item" style="padding-left:.5em; margin-top:.5em;">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </li>
+
+<!--///////////////////////////////////////////////////////////////////////////////-->
+<!--                                Bootstrap Form                                 -->
+            <li class="nav-item" style="padding-left:6em; margin-top:.5em;">
+                <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+                                    <!-- The Modal -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                class="close" title="Close Modal">&times;</span>
+
+                    <!-- Modal Content -->
+                    <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                    </div>
+
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                    </form>
+                </div>
+            </li>
+<!--///////////////////////////////////////////////////////////////////////////////-->
+
+        </ul>
+    </nav> 
+    <div class="jumbotron bg-dark text-white"
+        style="background-image: url(images/header1.jpg); background-repeat: no-repeat; background-size: cover;">
+      <h1 style="font-size: 3em; text-align:center; color: black;">Contractor Quest</h1>
+      <h2 style="font-size: 1.3em; text-align:center; color: black;">Find or list a contract today!</h2>
+    </div>
+</div> 
+<div class="container">
+    <div class="row" style="margin-left: 0px">
+        <div class="col-sm-6 col-md-3 text-light bg-secondary">
+             <h2 class="categories" style="border-bottom:solid;">Categories</h2>
+        <ul class="list">
+            <li>Account</li>
+            <li>Contracts</li>
+            <li>Payments</li>
+            <li>Sign up</li>
+        </ul>
+        </div>
+        <div class="col-sm-6 col-md-6 bg-light">
+            <h2 class="recentcontracts" style="border-bottom:dotted;">Frequent Questions</h2>
+            <div style="border-bottom: solid;">
+                <p>Click on the collapsible panel to open and close it.</p>
+                <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">Where can I add a contract?</a>
+                    </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">Go to the contract page and click the top right button labeled "Add a Contract"</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div style="border-bottom: solid;">
+                <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse2">How do I remove a contract I've listed?</a>
+                    </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">Head to Your listed contract page and view your contracts, beside each contract there should be a button to remove the contract if not accepted yet.</div>
+                    <div>If a contract has already been accepted contact support to have it resolved</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3 bg-light">
+            <img src="images/think.png" / style="width:16em;">
+        </div>
+    </div>  
+</div>
+<div class="footer" style="text-align:center;">
+    <p>No footer here sorry</p>
+</div>
+</body>
+</html> 
