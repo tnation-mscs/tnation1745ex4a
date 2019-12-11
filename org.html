@@ -1,0 +1,143 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Modification made in remote origin/master -->
+  <title>1745 Ex3B Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+  <!-- modification made in mswanson3bTrex branch -->
+</head>
+<body>
+<div class="container">
+<!-- A horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm navbar-custom">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="account.html">Account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="default.html">Contracts</a>
+                    </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">People</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="friends.html">Friends</a>
+                    <a class="dropdown-item" href="staff.html">Staff</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Organizations</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="org.html">MN State College Southeast</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Help Center</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="questions.html">Frequent Questions</a>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                    <a class="dropdown-item" href="terms.html">Terms Of Service</a>
+                </div>
+            </li>
+            <li class="nav-item" style="padding-left:8em; margin-top:.5em;">
+                <a href="#" data-toggle="tooltip" title="Enter A Keyword">Help?</a>
+            </li>
+            <li class="nav-item" style="padding-left:.5em; margin-top:.5em;">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </li>
+
+<!--///////////////////////////////////////////////////////////////////////////////-->
+<!--                                Bootstrap Form                                 -->
+            <li class="nav-item" style="padding-left:2em; margin-top:.5em;">
+                <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+                                    <!-- The Modal -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                class="close" title="Close Modal">&times;</span>
+
+                    <!-- Modal Content -->
+                    <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                    </div>
+
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                    </form>
+                </div>
+            </li>
+             <li style="padding-left:1em; margin-top:.5em;">
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" 
+                data-width="" data-layout="button" data-action="like" data-size="large" data-share="false"></div>
+            </li>
+<!--///////////////////////////////////////////////////////////////////////////////-->
+
+        </ul>
+    </nav> 
+    <div class="jumbotron bg-dark text-white"
+        style="background-image: url(images/mnstate.png); background-repeat: no-repeat; background-size: cover;">
+        <h1 style="font-size: 3em; text-align:center; color: black;"><br /></h1>
+        <h2 style="font-size: 1.3em; text-align:center; color: black;"><br /></h2>
+    </div>
+</div> 
+<div class="container">
+    <div class="row" style="margin-left: 0px">
+        <div class="col-sm-6 col-md-3 text-light bg-secondary">
+             <h3 class="categories" style="border-bottom:solid;">MN State College</h3>
+        <ul class="list">
+            <li>Join our team</li>
+            <li>Team members</li>
+            <li>Benefits</li>
+        </ul>
+        </div>
+        <div style="padding-bottom:4em" class="col-sm-6 col-md-9 bg-light">
+            <h2 class="recentcontracts">About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+
+            <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="600" data-show-text="true"><blockquote cite="https://developers.facebook.com/20531316728/posts/10154009990506729/" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/facebookapp/">Facebook</a> on&nbsp;<a href="https://developers.facebook.com/20531316728/posts/10154009990506729/">Thursday, August 27, 2015</a></blockquote></div>
+            <script src="https://www.linkedin.com/school/mscsoutheast/" type="text/javascript"> lang: en_US</script>
+            <script type="IN/FollowCompany" data-id="1337" data-counter="bottom"></script>
+            <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+            <script type="IN/Share" data-url="https://www.linkedin.com/school/mscsoutheast/"></script>
+
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thank you Kevyn Burger and <a href="https://twitter.com/StarTribune?ref_src=twsrc%5Etfw">@StarTribune</a>  for your excellent story on the partnership between our Band Instrument Repair program and <a href="https://twitter.com/vegaproductions?ref_src=twsrc%5Etfw">@vegaproductions</a>  making instruments affordable for young musicians- <a href="https://twitter.com/hashtag/mscsoutheastcares?src=hash&amp;ref_src=twsrc%5Etfw">#mscsoutheastcares</a> <a href="https://t.co/kCi4TY1hc9">https://t.co/kCi4TY1hc9</a></p>&mdash; MN State Southeast (@MSCSoutheast) <a href="https://twitter.com/MSCSoutheast/status/1204419292625821698?ref_src=twsrc%5Etfw">December 10, 2019</a></blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <iframe style="padding-left:10%; padding-bottom:2em;" width="700" height="400" src="https://www.youtube.com/embed/rrzodgh3_pU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="footer" style="text-align:center;">
+    <p>No footer here sorry</p>
+</div>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+
+</body>
+</html> 

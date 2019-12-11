@@ -22,7 +22,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "tnation1745ex4a", ".", "{3F
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64185"
 		SlnRelativePath = "..\tnation1745ex4a\"
-		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
@@ -31,11 +30,12 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3FAB7760-9C08-4388-97E4-896995E5008E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAB7760-9C08-4388-97E4-896995E5008E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {68030CA5-0FC7-4256-9DC6-3134C661D620}
+		SolutionGuid = {CDC3AD70-33EF-4F68-AA79-0A8CE2EE77F7}
 	EndGlobalSection
 EndGlobal
